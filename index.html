@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Mohd Sahil — Shopify Developer & Frontend Developer based in Mumbai, India. High-performance e-commerce stores with modern UI.">
+  <title>Mohd Sahil — Shopify & Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- ─── LOADER ───────────────────────────────── -->
+  <div id="loader" aria-hidden="true" aria-live="off">
+    <div class="loader__name">SAHIL</div>
+    <div id="loader-count" class="loader__count">0</div>
+    <div class="loader__bar">
+      <div class="loader__bar-fill" id="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ─── CURSOR ───────────────────────────────── -->
+  <div id="cursor-dot" aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ─── NAV ──────────────────────────────────── -->
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="#hero" class="nav__logo" aria-label="Back to top">SAHIL.</a>
+    <ul class="nav__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:ss613999@gmail.com" class="nav__cta">Hire Me →</a>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────── -->
+  <section id="hero" aria-label="Introduction">
+
+    <div class="hero__eyebrow reveal" data-delay="0">
+      <span>Shopify Developer · Frontend Developer</span>
+      <span class="eyebrow__badge"><span class="pulse-dot" aria-hidden="true"></span>Open for Freelance</span>
+      <span>Mumbai, India</span>
+    </div>
+
+    <div class="hero__body">
+      <div class="hero__heading-col">
+        <h1 class="hero__heading">
+          <span class="reveal-char">MOHD</span>
+          <span class="reveal-char">SAHIL</span>
+          <span class="reveal-char" aria-hidden="true">SHAIKH.</span>
+        </h1>
+        <div class="hero__corner-tag" aria-hidden="true">&lt;/&gt;</div>
+      </div>
+
+      <div class="hero__meta-col reveal" data-delay="350">
+        <p class="hero__index">§ Based in Mumbai · Available for projects</p>
+        <p class="hero__desc">
+          I build <strong>high-performance Shopify experiences</strong> with modern UI and smooth animations — turning
+          Figma designs into fully optimised stores.
+        </p>
+        <div class="hero__cta" role="group">
+          <a href="#work" class="btn-primary">View My Work <span aria-hidden="true">→</span></a>
+          <a href="#contact" class="btn-secondary">Get in touch</a>
+        </div>
+        <div class="hero__stats" aria-label="Key numbers">
+          <div class="stat">
+            <span class="stat__num">50<sup>+</sup></span>
+            <span class="stat__label">Custom Sections Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">4</span>
+            <span class="stat__label">Live Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">1<sup>+</sup></span>
+            <span class="stat__label">Year at Agency</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__footer" aria-hidden="true">
+      <span>© 2025</span>
+      <div class="ticker-wrap">
+        <div class="ticker-track">
+          <span class="accent">Shopify 2.0</span><span>·</span>
+          <span>Liquid</span><span>·</span>
+          <span class="accent">GSAP</span><span>·</span>
+          <span>HTML · CSS · JS</span><span>·</span>
+          <span class="accent">Klaviyo</span><span>·</span>
+          <span>Python</span><span>·</span>
+          <span class="accent">GA4 · GTM</span><span>·</span>
+          <span>Metafields</span><span>·</span>
+          <!-- duplicate for seamless loop -->
+          <span class="accent">Shopify 2.0</span><span>·</span>
+          <span>Liquid</span><span>·</span>
+          <span class="accent">GSAP</span><span>·</span>
+          <span>HTML · CSS · JS</span><span>·</span>
+          <span class="accent">Klaviyo</span><span>·</span>
+          <span>Python</span><span>·</span>
+          <span class="accent">GA4 · GTM</span><span>·</span>
+          <span>Metafields</span><span>·</span>
+        </div>
+      </div>
+      <span>Scroll ↓</span>
+    </div>
+
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────── -->
+  <section id="about" aria-label="About Mohd Sahil">
+
+    <div class="section-header reveal" data-delay="0">
+      <span class="section-num">§ 01</span>
+      <h2 class="section-title">About</h2>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="about__grid">
+
+      <!-- Left -->
+      <div class="about__left reveal" data-delay="100">
+
+        <!-- Bento Info Grid -->
+        <div class="about__bento">
+
+          <div class="bento-card bento-card--role">
+            <span class="bento-card__label">Current Role</span>
+            <span class="bento-card__value">Shopify<br>Developer</span>
+            <span class="bento-card__sub">@ Medkon Services</span>
+          </div>
+
+          <div class="bento-card bento-card--location">
+            <span class="bento-card__label">Based in</span>
+            <span class="bento-card__value">Mumbai<br>India</span>
+          </div>
+
+          <div class="bento-card bento-card--avail">
+            <span class="bento-card__label">Status</span>
+            <div class="bento-card__avail-row">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span class="bento-card__value">Open for<br>Freelance</span>
+            </div>
+          </div>
+
+          <div class="bento-card bento-card--exp">
+            <span class="bento-card__num">1<sup>+</sup></span>
+            <span class="bento-card__label">Year at Agency</span>
+          </div>
+
+          <div class="bento-card bento-card--sections">
+            <span class="bento-card__num">50<sup>+</sup></span>
+            <span class="bento-card__label">Custom Sections Built</span>
+          </div>
+
+        </div>
+        <div class="about__quick-facts">
+          <div class="fact">
+            <span class="fact__label">Current Role</span>
+            <span class="fact__val">Shopify Developer @ Medkon Services</span>
+          </div>
+          <div class="fact">
+            <span class="fact__label">Location</span>
+            <span class="fact__val">Mumbai, India</span>
+          </div>
+          <div class="fact">
+            <span class="fact__label">Education</span>
+            <span class="fact__val">B.E. Computer Engineering (AIML) · 2024</span>
+          </div>
+          <div class="fact">
+            <span class="fact__label">Available For</span>
+            <span class="fact__val acid">Freelance · Full-time</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="about__right reveal" data-delay="200">
+        <p class="about__lead">
+          Shopify Developer with hands-on experience building high-performance e-commerce stores — skilled in Shopify
+          2.0, Liquid, metafields, and conversion-focused UI.
+        </p>
+        <p class="about__body">
+          Currently at <strong>Medkon Services</strong> (Dec 2024 – Present), a creative agency in Mumbai, where I
+          develop and customise Shopify themes, build custom sections, convert Figma designs into fully responsive
+          pages, and manage integrations with Klaviyo, GA4, and Shopify Flow.
+        </p>
+        <p class="about__body">
+          I've built <strong>50+ custom Shopify sections</strong> — hero banners, product displays, interactive UI, and
+          advanced filtering — across multiple live stores. Expanding into Python automation and backend API
+          integrations as well.
+        </p>
+
+        <div class="about__exp">
+          <div class="exp__meta">
+            <span>Medkon Services — Creative Agency · Mumbai</span>
+            <span class="exp__date">Dec 2024 – Present</span>
+          </div>
+          <ul class="exp__list">
+            <li>Built 50+ custom Shopify sections (hero banners, product displays, interactive UI)</li>
+            <li>Shopify 2.0: metafields, metaobjects, dynamic sections</li>
+            <li>Converted Figma designs to fully responsive Shopify pages</li>
+            <li>Integrated Klaviyo automation flows (Welcome, Abandoned Cart, Post Purchase)</li>
+            <li>Implemented GA4 + GTM tracking (view_item, add_to_cart, purchase)</li>
+            <li>Optimised store performance and page speed across multiple projects</li>
+            <li>Integrated third-party apps and REST APIs</li>
+          </ul>
+        </div>
+
+        <div class="about__edu">
+          <div class="edu-item">
+            <span class="edu-item__degree">B.E. Computer Engineering (AIML)</span>
+            <span class="edu-item__school">Theem College of Engineering · May 2024</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-item__degree">Diploma in Information Technology</span>
+            <span class="edu-item__school">Government Polytechnic Mumbai · Sep 2021</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── WORK ──────────────────────────────────── -->
+  <section id="work" aria-label="Selected Work">
+
+    <div class="section-header reveal" data-delay="0">
+      <span class="section-num">§ 02</span>
+      <h2 class="section-title">Selected Work</h2>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="work__grid">
+
+      <!-- Apex Gum -->
+      <article class="work-card reveal" data-delay="50">
+        <div class="work-card__inner">
+          <div class="work-card__top">
+            <span class="work-card__num">01</span>
+            <span class="work-card__cat">Shopify · E-commerce</span>
+          </div>
+          <h3 class="work-card__title">Apex Gum</h3>
+          <div class="work-card__tags">
+            <span>Shopify 2.0</span><span>Liquid</span><span>GSAP</span><span>JS</span>
+          </div>
+          <div class="work-card__overlay">
+            <p>Developed and launched a high-performance Shopify store. Built a custom 2.0 theme with GSAP animations,
+              interactive product layouts, and advanced filtering — strong focus on performance and UX.</p>
+            <a href="https://apexgum.com/" target="_blank" rel="noopener noreferrer" class="work-card__link">Visit Site
+              →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Fragile Base -->
+      <article class="work-card reveal" data-delay="100">
+        <div class="work-card__inner">
+          <div class="work-card__top">
+            <span class="work-card__num">02</span>
+            <span class="work-card__cat">Shopify · Custom UI</span>
+          </div>
+          <h3 class="work-card__title">Fragile Base</h3>
+          <div class="work-card__tags">
+            <span>Shopify</span><span>Liquid</span><span>HTML/CSS/JS</span>
+          </div>
+          <div class="work-card__overlay">
+            <p>Built a full-featured Shopify store with custom Liquid layouts. Implemented advanced UI components well
+              beyond default theme capabilities — delivering a smooth, unique shopping experience.</p>
+            <a href="https://fragilebase.com/" target="_blank" rel="noopener noreferrer" class="work-card__link">Visit
+              Site →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Lasabia Madrid -->
+      <article class="work-card reveal" data-delay="150">
+        <div class="work-card__inner">
+          <div class="work-card__top">
+            <span class="work-card__num">03</span>
+            <span class="work-card__cat">Shopify + Webflow · Automation</span>
+          </div>
+          <h3 class="work-card__title">Lasabia Madrid</h3>
+          <div class="work-card__tags">
+            <span>Shopify</span><span>Webflow</span><span>Klaviyo</span><span>GA4</span><span>GTM</span>
+          </div>
+          <div class="work-card__overlay">
+            <p>Integrated Shopify backend with Webflow frontend for a premium perfume brand. Set up Klaviyo automation
+              flows, GA4 + GTM event tracking, multi-currency via Shopify Markets, and an automated discount system.</p>
+            <a href="https://www.lasabiamadrid.com/" target="_blank" rel="noopener noreferrer"
+              class="work-card__link">Visit Site →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Python & Dev -->
+      <article class="work-card reveal" data-delay="200">
+        <div class="work-card__inner">
+          <div class="work-card__top">
+            <span class="work-card__num">04</span>
+            <span class="work-card__cat">Python · WordPress</span>
+          </div>
+          <h3 class="work-card__title">Dev &amp; Automation</h3>
+          <div class="work-card__tags">
+            <span>Python</span><span>Scraping</span><span>WordPress</span><span>WooCommerce</span><span>PHP</span>
+          </div>
+          <div class="work-card__overlay">
+            <p>Built a WordPress + WooCommerce e-commerce site with a custom PHP plugin. Also developed Python web
+              scraping scripts, business automation workflows, REST API integrations, and Flask backend projects.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────── -->
+  <section id="skills" aria-label="Skills and Capabilities">
+
+    <div class="section-header reveal" data-delay="0">
+      <span class="section-num">§ 03</span>
+      <h2 class="section-title">Capabilities</h2>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="skills__grid">
+      <div class="skill-group reveal" data-delay="80">
+        <h3 class="skill-group__title">Shopify & E-commerce</h3>
+        <div class="skill-group__tags">
+          <span>Shopify 2.0</span>
+          <span>Liquid Templating</span>
+          <span>Metafields</span>
+          <span>Metaobjects</span>
+          <span>Theme Customisation</span>
+          <span>Custom Sections (50+)</span>
+          <span>Shopify Flow</span>
+          <span>Shopify Markets</span>
+          <span>Performance Optimisation</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal" data-delay="130">
+        <h3 class="skill-group__title">Frontend Development</h3>
+        <div class="skill-group__tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript (ES6+)</span>
+          <span>GSAP</span>
+          <span>AOS</span>
+          <span>Responsive UI</span>
+          <span>Figma → Code</span>
+          <span>Conversion Layouts</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal" data-delay="180">
+        <h3 class="skill-group__title">Automation & Marketing</h3>
+        <div class="skill-group__tags">
+          <span>Klaviyo</span>
+          <span>Email Automation Flows</span>
+          <span>Google Analytics 4</span>
+          <span>Google Tag Manager</span>
+          <span>GA4 Event Tracking</span>
+          <span>API Integration</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal" data-delay="230">
+        <h3 class="skill-group__title">Python & Backend</h3>
+        <div class="skill-group__tags">
+          <span>Python</span>
+          <span>Web Scraping</span>
+          <span>Automation Scripts</span>
+          <span>Flask</span>
+          <span>REST APIs</span>
+          <span>PHP</span>
+          <span>WooCommerce</span>
+        </div>
+      </div>
+
+      <div class="skill-group skill-group--full reveal" data-delay="280">
+        <h3 class="skill-group__title">Tools & Workflow</h3>
+        <div class="skill-group__tags">
+          <span>Git & GitHub</span>
+          <span>VS Code</span>
+          <span>Figma</span>
+          <span>Chrome DevTools</span>
+          <span>Webflow</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────── -->
+  <section id="contact" aria-label="Contact Mohd Sahil">
+
+    <div class="section-header reveal" data-delay="0">
+      <span class="section-num">§ 04</span>
+      <h2 class="section-title">Let's Work</h2>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="contact__grid">
+
+      <div class="contact__left reveal" data-delay="100">
+        <p class="contact__lead">Got a Shopify project or frontend challenge in mind? Let's build something exceptional
+          together.</p>
+        <a href="mailto:ss613999@gmail.com" class="contact__email" title="Send me an email">ss613999@gmail.com</a>
+        <div class="contact__details">
+          <div class="contact-detail">
+            <span class="contact-detail__label">Phone</span>
+            <a href="tel:+919004709790" class="contact-detail__val">+91 9004709790</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail__label">LinkedIn</span>
+            <a href="https://linkedin.com/in/sahil-shaikh" target="_blank" rel="noopener noreferrer"
+              class="contact-detail__val">sahil-shaikh</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail__label">Location</span>
+            <span class="contact-detail__val">Mumbai, India</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail__label">Availability</span>
+            <span class="contact-detail__val">Open for Freelance & Full-time</span>
+          </div>
+        </div>
+      </div>
+
+      <form id="contact-form" class="contact__form reveal" data-delay="200"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        aria-label="Contact form">
+
+        <!-- Web3Forms config -->
+        <input type="hidden" name="access_key" value="8b190c18-b2b6-4d2a-a004-c4dd35188fdd">
+        <input type="hidden" name="subject" value="New Portfolio Contact">
+        <input type="hidden" name="redirect" value="false">
+        <input type="checkbox" name="botcheck" style="display:none">
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" type="text" name="name" placeholder="e.g. Ahmed from XYZ Studio" required
+            autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input id="email" type="email" name="email" placeholder="hi@yourcompany.com" required autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="5"
+            placeholder="Tell me about your project — store URL, what needs to be built, timeline..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary" id="form-submit-btn">Send Message <span aria-hidden="true">→</span></button>
+        <div id="form-status" role="alert" aria-live="polite"></div>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────── -->
+  <footer aria-label="Site footer">
+    <div class="footer__inner">
+      <span>© 2025 Mohd Sahil Shaikh</span>
+      <div class="footer__ticker-wrap" aria-hidden="true">
+        <div class="footer__ticker-track">
+          <span>Mumbai · India</span><span>·</span>
+          <span>Shopify Developer</span><span>·</span>
+          <span>Frontend Developer</span><span>·</span>
+          <span>50+ Custom Sections</span><span>·</span>
+          <span>Mumbai · India</span><span>·</span>
+          <span>Shopify Developer</span><span>·</span>
+          <span>Frontend Developer</span><span>·</span>
+          <span>50+ Custom Sections</span><span>·</span>
+        </div>
+      </div>
+      <a href="mailto:ss613999@gmail.com" class="footer__email">ss613999@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
